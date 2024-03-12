@@ -861,7 +861,7 @@ Octal       Op Code     19 18 17 16 15 14 13 12 11 10 09 08 07 06 05 04 03 02 01
 ##### 8.1.3.1. DATA= derivated pseudo-instructions
 
 These pseudo-instructions assemble as DATA= hardware-instruction.  
-DATA= is not used directly by the programmer, DATA= is not a assmebly instruction.
+DATA= is not used directly by the programmer, DATA= is not a assembly instruction.
 
 ```
 Octal       Op Code     Description
@@ -877,7 +877,7 @@ Octal       Op Code     Description
 ##### 8.1.3.2. DATAA derivated pseudo-instructions
 
 These pseudo-instructions assemble as DATAA hardware-instruction.  
-DATAA is not used directly by the programmer. DATAA is not a assmebly instruction.
+DATAA is not used directly by the programmer. DATAA is not a assembly instruction.
 
 ```
 Octal       Op Code     Description
