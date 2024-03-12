@@ -84,7 +84,7 @@ Control Pulses
     
 * Optics subsystem orientation (OPT)
 * Receiver (DOWNLINK) & Transmitter (UPLINK)
-* 3 axis Rotational Hand controller (RHC) Pitch, Yaw, Row
+* 3 axis Rotational Hand controller (RHC) Pitch, Yaw, Roll
 * Inertial Measurement Unit (IMU)
     * Pulsed Integrating Pendulous Accelerometer (PIPA)
     * Control Data Unit (CDU)
@@ -414,11 +414,17 @@ Maintain the up to 16 job’s state
 
 ## 6. Timers
 
+...
+
 ## 7. CPU
 
 ### 7.1. Reset
 
+...
+
 ### 7.2. Interrupts
+
+...
 
 ## 8. Instruction Set Sumarry
 
@@ -940,7 +946,7 @@ RETURN assembles as GOTO 0000
 
 ## 8.4. Alias instruction
 
-alias instruction
+...
 
 ## Appendix A: Instruction Description
 
