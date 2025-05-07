@@ -1,3 +1,65 @@
+## Apollo Guidance Computer
+
+### Block III
+The **AGC Block III** has never existed and to my knowledge it has never been a thing in the Apollo Space Program.
+However, it is the legacy of **Hugh-Blair Smith** who has dreamed about an improved version of the Block II in the context of the post-Apollo era.
+The design and architecture and technology could have been the one from the 70's.
+
+The Block III is publicly mentioned in his book _Left Brains for the Right Stuff: Computers, Space, and History_. 
+
+### Source of inspiration
+This project is the consolidation of all the documents shared by HBS in private email exchange.
+
+These documents do not cover everything and some parts can be interpreted in different manners leaving room for misunderstanding.
+There might be discrepancies and contradictions because of mid-course design changes and too much complexity.
+
+### Project content
+It is obvious that for practical reasons there is no attempt to build the computer with core rope memory, bare transistors, and relays.
+
+However,
+- The **assembler** is written in modern object oriented programming language, Java.
+- The **computer emulator** is written in modern object oriented programming language, C#
+- The **computer simulation** is written in hardware description language VHDL, allowing easy port on FPGA (Altera DE0-Nano)
+- The **real computer** is DIY **3D printed,** and **PCB** can be manufactured.
+- The **virtual computer** is implemented in home made game engine using **OpenGL** for 3D rendering in order to simulate (and understand) the Apollo spacecraft, IMU (Inertial Measurement Unit), DSKY (Display-Keyboard), FDAI (Flight Director Attitude Indicator), and other AGC peripherals, allowing to reproduce real procedure such as the alignment of the stable member with stars and Earth horizon.
+- The emulator is ported to KSP Kerbal Space Program, (will be on KSA Kitten Space Agency)
+
+### Note from the author
+
+I am not a relative to HBS or his family. I am just passionate about space exploration, computer engineering, programming and electronic.
+This project is a perfect way for me to practice all these passions in one hobby.
+
+I am alone on this project, with a little spare time to work on it.
+The complexity is overwhelming and I'll keep it as a hobby that I'll practice smoothly (to not burn out) over the next quarter of century with no goal to have a short deadline release.
+
+HBS was a very busy man up to the end with a little spare time to share thoughts on the project and implementation.
+The goal is to keep the direction he wanted for the Block III and not divert too much from his mindset.
+I have tried to contact his former MIT co-workers or Apollo friends by email, but without success.
+So there is no feedback I can get from the people who knew him very well.
+
+Maybe some encouragement will motivate me to reserve more time on this hobby and share this precious knowledge for posterity.
+
+HBS has sent people on the Moon, and I am not.
+I'll do my best to document and archive his ideas with no offense to who he was and with no vanity from me. 
+My only concern is to provide quality documentation and code so that it can be consulted and used as a reference.
+But the actual state is still a draft and proof of concept, so yes, this github is quite empty before it reaches a public release.
+
+### Tributes
+- Biography at [wehackthemoon.com](https://wehackthemoon.com/bios/hugh-blair-smith)
+- Broadcast at [thespaceshow.com](https://www.thespaceshow.com/show/22-may-2016/broadcast-2706-hugh-blair-smith)
+- Podcast at the [orbitalmechanics.com](https://theorbitalmechanics.com/show-notes/hugh-blair-smith)
+- From Draper Laboratory on [Facebook](https://www.facebook.com/DraperLaboratory/posts/it-is-with-a-heavy-heart-that-we-share-that-hugh-blair-smith-passed-away-this-mo/1009746294494320/)
+- Obituary at [legacy.com](https://www.legacy.com/us/obituaries/legacyremembers/hugh-blair-smith-obituary?id=55765156) and [here](https://www.legacy.com/us/obituaries/bostonglobe/name/hugh-blair-smith-obituary?id=55778015)
+- In Memoriam at [capecodwriterscenter.org](https://capecodwriterscenter.org/in-memoriam-hugh-blair-smith-1936-2024/)
+
+### Disclaimer
+I know people truly believing that mankind has never landed on the Moon,
+- One thing I say, "If USA did not landed there, then USSR would have continued the race to the Moon" the fact is that we have no footage of Russian people on the Moon, not even fake footage.... (I let you imagine their reaction when I say this to people with Russian mindset).
+- All the documentation from NASA and MIT has been unclassified and is publicly and freely available [here](https://www.ibiblio.org/apollo/index.html#gsc.tab=0).
+  - if you have the educational level, you will understand that you can go to the Moon with a computer having less compute power than a wireless LED bulb.
+  - You can play KSP to understand the basic of rocket science and orbital mechanics.
+  - And unfortunately, all the mechanical drawings of rocket engines and other parts are not designed for modern CNC machining and stuff. All of these were handcrafted by highly skilled people, and probably nobody has the knowledge to do it again because engineering sciences have changed.
+
 # Apollo Guidance Computer (AGC) Block III
 
 1. [Peripheral Features](#1-peripheral-features)
