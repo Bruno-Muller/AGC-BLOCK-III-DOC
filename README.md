@@ -2,7 +2,7 @@
 
 ### Block III
 The **AGC Block III** has never existed and to my knowledge it has never been a thing in the Apollo Space Program.
-However, it is the legacy of **Hugh-Blair Smith** who has dreamed about an improved version of the Block II in the context of the post-Apollo era.
+However, it is the legacy of **Hugh Blair-Smith** who has dreamed about an improved version of the Block II in the context of the post-Apollo era.
 The design and architecture and technology could have been the one from the 70's.
 
 The Block III is publicly mentioned in his book _Left Brains for the Right Stuff: Computers, Space, and History_. 
@@ -221,7 +221,7 @@ Control Pulses
 |-      | -                             | -         |
 | RA    | Return Address                | 15 bits   |
 | RAPO  | Return-Address POP pointer    | 5 bits    |
-| RAPU  | Return-Address POP pointer    | 5 bits    |
+| RAPU  | Return-Address PUSH pointer   | 5 bits    |
 
 **RA** (15 bits)
 * Latest Return Address, for instant return from subroutine
@@ -230,7 +230,7 @@ Control Pulses
 * Return-Address POP pointer
 
 **RAPU** (5 bits)
-* Return-Address POP pointer
+* Return-Address PUSH pointer
 
 ##### 3.1.2.3. One complement registers
 
@@ -277,11 +277,11 @@ Control Pulses
 
 **CS** (4 bits)
 * Select one of 16 CoreSets as active
-* Qddressed as a channel
+* Addressed as a channel
 
 **V** (3 bits)
 * Select one of 8 VAC areas as active
-* Adressed as a channel
+* Addressed as a channel
 
 ##### 3.1.2.6. Data registers
 
@@ -923,7 +923,7 @@ Octal       Op Code     19 18 17 16 15 14 13 12 11 10 09 08 07 06 05 04 03 02 01
 ##### 8.1.3.1. DATA= derivated pseudo-instructions
 
 These pseudo-instructions assemble as DATA= hardware-instruction.  
-DATA= is not used directly by the programmer, DATA= is not a assembly instruction.
+DATA= is not used directly by the programmer, DATA= is not an assembly instruction.
 
 ```
 Octal       Op Code     Description
@@ -939,7 +939,7 @@ Octal       Op Code     Description
 ##### 8.1.3.2. DATAA derivated pseudo-instructions
 
 These pseudo-instructions assemble as DATAA hardware-instruction.  
-DATAA is not used directly by the programmer. DATAA is not a assembly instruction.
+DATAA is not used directly by the programmer. DATAA is not an assembly instruction.
 
 ```
 Octal       Op Code     Description
